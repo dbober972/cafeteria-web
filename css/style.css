@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(203, 202, 202, 0.677);
+}
+
+header {
+  width: 100%;
+
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.logo img {
+  width: 100px;
+}
+
+.titulo {
+  width: 100%;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace
+}
+
+#navmenu {
+  width: 100%;
+  margin-left: -30px;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+
+}
+
+a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 5px solid rgb(244, 204, 27);
+  border-radius: 50px;
+  color: blueviolet;
+  font-size: 1.50rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box {
+  width: 250px;
+  height: 35vh;
+  margin-top: 20px;
+  border: 3px dotted red;
+  border-radius: 50px;
+  background-image: url(../img/menucafe.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.box2 {
+  width: 250px;
+  height: 35vh;
+  margin-top: 20px;
+  border: 3px dotted red;
+  border-radius: 50px;
+  background-image: url(../img/menucafe.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.box3 {
+  width: 250px;
+  height: 35vh;
+  margin-top: 20px;
+  border: 3px dotted red;
+  border-radius: 50px;
+  background-image: url(../img/cafeCappuchino.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+
+.textcaja {
+  font-size: 2rem;
+  color: aqua;
+  position: absolute;
+  left: 245px;
+  bottom: 180px;
+  z-index: 1;
+
+}
+
+.textcaja2 {
+  font-size: 2rem;
+  color: aqua;
+  position: absolute;
+  right: 245px;
+  bottom: 180px;
+  z-index: 1;
+
+}
+
+.textcaja3 {
+  font-size: 2rem;
+  color: aqua;
+  position: absolute;
+  left: 245px;
+  bottom: -180px;
+  z-index: 1;
+
+}
+
+.textcaja4 {
+  font-size: 2rem;
+  color: aqua;
+  position: absolute;
+  right: 245px;
+  bottom: -180px;
+  z-index: 1;
+
+}
+
+/* Sobre nosotros*/
+
+
+#nosotros_container {
+  margin: 30px;
+}
+
+#nosotros {
+  width: 80%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  border: 2px solid burlywood;
+  border-radius: 25px;
+  box-shadow: 10px 5px 9px rgba(102, 51, 153, 0.699);
+
+}
+
+.titulo {
+  margin: 15px;
+  text-align: center;
+}
+
+.parrafo p {
+  width: 100%;
+  padding: 5px;
+
+
+}
+
+#equipo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.sofia {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed red;
+  border-radius: 100%;
+  background-image: url(../img/Sofia.png);
+  background-size: 300px;
+  background-position: -30px -30px;
+}
+
+.carlos {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed red;
+  border-radius: 100%;
+  background-image: url(../img/Carlos.png);
+  background-size: 300px;
+  background-position: -50px -25px;
+}
+
+.elena {
+  width: 200px;
+  height: 200px;
+  border: 2px dashed red;
+  border-radius: 100%;
+  background-image: url(../img/Elena.png);
+  background-size: 300px;
+  background-position: 170px 0px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 4) {
+  header {
+
+    background-image: url(../img/cabecera.png);
+  }
+}
+
+@media(min-width: 350px)and (max-width:768px) {
+
+
+  header {
+    width: 100%;
+    height: 7vh;
+    gap: 5px;
+
+
+  }
+
+  .titulo {
+    font-size: 1em;
+    margin-right: -30;
+
+  }
+
+  .box {
+    margin: 50px;
+    margin-top: 20px;
+    background-size: 250px 250px;
+
+  }
+
+  .box2 {
+    margin: 50px;
+    margin-top: 20px;
+    background-size: 250px 250px;
+
+  }
+
+  .box3 {
+    margin: 50px;
+    margin-top: 20px;
+    background-size: 250px 250px;
+
+  }
+
+  #equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+  }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+
+
+  header {
+    width: 100%;
+    height: 7vh;
+
+
+  }
+
+  .titulo {
+    font-size: 2em;
+    margin-top: -20px;
+  }
+
+}
