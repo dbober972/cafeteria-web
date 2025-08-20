@@ -12,7 +12,7 @@ body {
 header {
   width: 100%;
 
-  margin: 30px;
+  margin: 25px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -34,10 +34,10 @@ header {
 #navmenu {
   width: 100%;
   margin-left: -30px;
-  padding: 10px;
+  padding: 30px;
   text-decoration: none;
   display: flex;
-  justify-content: end;
+
 
 }
 
@@ -65,7 +65,7 @@ a:hover {
 .box {
   width: 250px;
   height: 35vh;
-  margin-top: 20px;
+  margin-top: 50px;
   border: 3px dotted red;
   border-radius: 50px;
   background-image: url(../img/menucafe.png);
@@ -139,9 +139,15 @@ a:hover {
 
 /* Sobre nosotros*/
 
+.navmenu {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: row;
+}
+
 
 #nosotros_container {
-  margin: 30px;
+  margin: 10px;
 }
 
 #nosotros {
