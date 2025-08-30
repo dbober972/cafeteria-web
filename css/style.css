@@ -8,6 +8,7 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   background-color: rgba(203, 202, 202, 0.677);
+
 }
 
 header {
@@ -37,26 +38,25 @@ header {
   text-decoration: none;
 }
 
-a {
+.menu {
   margin: 10px;
   text-decoration: none;
 }
 
-/*a:hover {
+.menu:hover {
   border-bottom: 5px solid rgb(244, 204, 27);
   border-radius: 50px;
   color: blueviolet;
   font-size: 1.50rem;
   font-family: 'Times New Roman', Times, serif;
-}*/
+}
 
 
 .container {
-
   width: 100%;
-  height: 90vh;
+  height: auto;
   background-color: #fef4e6;
-  padding: 50px;
+  padding: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -65,12 +65,16 @@ a {
 
 
 .box {
-  width: 250px;
-  height: 20vh;
+  width: 200px;
+  height: 35vh;
+  border: 2px solid #cbcbcb;
+
+  border-width: 10px;
   border-radius: 25px;
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
+
 }
 
 .img1 {
@@ -86,28 +90,40 @@ a {
 }
 
 .img4 {
-  background-image: url(../img/cafecalientemenu.png);
+  background-image: url(../img/bebidasfriasmenu.png);
 }
 
 .img5 {
-  background-image: url(../img/Teclasicomenu.png);
+  background-image: url(../img/bocadillosydulcesmodernos.png);
 }
 
 .img6 {
-  background-image: url(../img/infusionesdehierbas.png);
+  background-image: url(../img/postresydulcesmenu.png);
+}
+
+.linea {
+  width: 100%;
+
+
 }
 
 
 
 
 
-.box_cafe {
+
+.box_caliente {
   height: 100vh;
+
+
+
 
 }
 
 .box_te {
   height: 100vh;
+
+
   background-color: #fef4e6;
 }
 
@@ -116,6 +132,20 @@ a {
 
 }
 
+.box_bebidas {
+  height: 100vh;
+  background-color: #fef4e6;
+}
+
+.box_bocadillos {
+  height: 100vh;
+
+}
+
+.box_postres {
+  height: 100vh;
+  background-color: #fef4e6;
+}
 
 footer {
   height: 10vh;
