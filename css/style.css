@@ -33,13 +33,8 @@ header {
 #navmenu {
   width: 100%;
   height: 50px;
-
   padding: 10px;
-
   text-decoration: none;
-
-
-
 }
 
 a {
@@ -47,68 +42,80 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+/*a:hover {
   border-bottom: 5px solid rgb(244, 204, 27);
   border-radius: 50px;
   color: blueviolet;
   font-size: 1.50rem;
   font-family: 'Times New Roman', Times, serif;
+}*/
+
+
+.container {
+
+  width: 100%;
+  height: 90vh;
+  background-color: #fef4e6;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 
-#container {
-  height: 80vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-
-
-}
 
 .box {
   width: 250px;
-  height: 35vh;
-  margin: auto;
-  border: 3px dotted red;
+  height: 20vh;
   border-radius: 25px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img1 {
   background-image: url(../img/cafecalientemenu.png);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-.enlace_imagen {
-  margin: auto;
-
-}
-
-.box1 {
-  width: 250px;
-  height: 35vh;
-
-  border: 3px dotted red;
+.img2 {
   background-image: url(../img/Teclasicomenu.png);
-  border-radius: 25px;
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-
-
-.box2 {
-  width: 250px;
-  height: 35vh;
-  margin: auto;
-  border: 3px dotted red;
-  border-radius: 25px;
+.img3 {
   background-image: url(../img/infusionesdehierbas.png);
-  background-size: 100%;
-  background-position: center;
-  background-position: unset;
-  background-repeat: no-repeat;
 }
+
+.img4 {
+  background-image: url(../img/cafecalientemenu.png);
+}
+
+.img5 {
+  background-image: url(../img/Teclasicomenu.png);
+}
+
+.img6 {
+  background-image: url(../img/infusionesdehierbas.png);
+}
+
+
+
+
+
+.box_cafe {
+  height: 100vh;
+
+}
+
+.box_te {
+  height: 100vh;
+  background-color: #fef4e6;
+}
+
+.box_infusiones {
+  height: 100vh;
+
+}
+
 
 footer {
   height: 10vh;
